@@ -1,0 +1,4 @@
+if [ -f LastOutput.txt ]; then
+    rm LastOutput.txt
+fi
+upcrun a.out

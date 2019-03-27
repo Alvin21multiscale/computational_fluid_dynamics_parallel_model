@@ -1,0 +1,4 @@
+if [ -f a.out ]; then
+    rm a.out
+fi
+upcc -T $1 blasius.upc -o a.out

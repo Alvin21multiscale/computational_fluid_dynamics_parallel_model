@@ -1,0 +1,9 @@
+echo 1. Compiling...
+./compile $1
+echo Done.
+echo 2. Running...
+./run
+echo Done.
+echo 3. Comparing results...
+diff ../results/10x10.txt LastOutput.txt
+echo Done.
